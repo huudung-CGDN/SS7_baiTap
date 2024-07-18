@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("can_nang")
+    let b = +prompt("Chieu_cao")
+    let BMI = a/(b**2)
+    document.write("BMI =" +BMI)
+    if (BMI<18){
+        alert("underweight");
+    }else if (18.5<=BMI<25.0){
+        alert("normal");
+    }else if (BMI<30.0){
+        alert("overweight");
+    }else   {
+        alert("obese");
+    }
+</script>
+
+</body>
+</html>
